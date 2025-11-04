@@ -1,0 +1,36 @@
+.base {
+    background: var(--skill-color-bg);
+    width: fit-content;
+    padding: 4px 8px;
+
+    color: var(--skill-color-txt);
+
+    border: solid var(--skill-color-border);
+    border-width: 1px 2px;
+    border-radius: 4px;
+
+    cursor: default;
+    box-shadow: var(--skill-shadow);
+    transition: 0.3s ease;
+}
+
+.base:hover {
+    background: var(--skill-color-bg-hover);
+    color: var(--skill-color-txt-hover);
+    border-color: var(--skill-color-border-hover);
+    border-width: 1px 2px;
+}
+
+.light {
+    --skill-color-bg: #000;
+    --skill-color-txt: #000;
+    --skill-color-bg-hover: #000;
+    --skill-color-txt-hover: #000;
+}
+
+.dark {
+    --skill-color-bg: #fff;
+    --skill-color-txt: #fff;
+    --skill-color-bg-hover: #fff;
+    --skill-color-txt-hover: #fff;
+}
