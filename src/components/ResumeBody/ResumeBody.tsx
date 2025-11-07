@@ -1,11 +1,7 @@
 import LanguageSkillGroup from "../LanguageSkillGroup/LanguageSkillGroup";
-import Section from "../Section/Section";
 import SectionHeader from "../SectionHeader/SectionHeader";
 import SkillBarGroup from "../SkillBarGroup/SkillBarGroup";
 import SkillTagGroup from "../SkillTagGroup/SkillTagGroup";
-import TextTitle from "../TextTitle/TextTitle";
-import TextWrapper from "../TextWrapper/TextWrapper";
-import TimelineDecorator from "../TimelineDecorator/TimelineDecorator";
 import TimelineStep from "../TimelineStep/TimelineStep";
 import "./ResumeBody.css";
 
