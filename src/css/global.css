@@ -5,6 +5,12 @@
 
 :root {
     --font-family: "Poppins", "Lato", "Open Sans", sans-serif, arial;
+
+    --font-size-sm: 0.8rem;
+    --font-size-md: 1rem;
+    --font-size-lg: 1.4rem;
+    --font-size-xl: 1.8rem;
+    --font-size-2xl: 2.2rem;
 }
 
 * {

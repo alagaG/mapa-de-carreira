@@ -1,9 +1,10 @@
-.base {
+.skilltag {
     background: var(--skill-color-bg);
     width: fit-content;
     padding: 4px 8px;
 
     color: var(--skill-color-txt);
+    font-size: var(--font-size-sm);
 
     border: solid var(--skill-color-border);
     border-width: 1px 2px;
@@ -14,21 +15,21 @@
     transition: 0.3s ease;
 }
 
-.base:hover {
+.skilltag:hover {
     background: var(--skill-color-bg-hover);
     color: var(--skill-color-txt-hover);
     border-color: var(--skill-color-border-hover);
     border-width: 1px 2px;
 }
 
-.light {
+.skilltag--light {
     --skill-color-bg: #000;
     --skill-color-txt: #000;
     --skill-color-bg-hover: #000;
     --skill-color-txt-hover: #000;
 }
 
-.dark {
+.skilltag--dark {
     --skill-color-bg: #fff;
     --skill-color-txt: #fff;
     --skill-color-bg-hover: #fff;

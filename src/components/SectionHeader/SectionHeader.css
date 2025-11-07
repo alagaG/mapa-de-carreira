@@ -1,0 +1,13 @@
+.sectionheader {
+    margin-bottom: 24px;
+}
+
+.sectionheader__title {
+    font-size: var(--font-size-lg);
+}
+
+.sectionheader__line {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid black;
+}

@@ -1,0 +1,20 @@
+.texttitle {
+    --texttitle--md-color: darkgray;
+    --texttitle--md-font-size: var(--font-size-md);
+    --texttitle--md-font-weight: 500;
+    --texttitle--lg-color: black;
+    --texttitle--lg-font-size: var(--font-size-lg);
+    --texttitle--lg-font-weight: 500;
+}
+
+.texttitle--md {
+    color: var(--texttitle--md-color);
+    font-size: var(--font-size-md);
+    font-weight: var(--texttitle--md-font-weight);
+}
+
+.texttitle--lg {
+    color: var(--texttitle--lg-color);
+    font-size: var(--font-size-lg);
+    font-weight: var(--texttitle--lg-font-weight);
+}

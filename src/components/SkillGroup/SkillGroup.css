@@ -1,0 +1,10 @@
+.skillgroup__title {
+    font-size: var(--font-size-md);
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.skillgroup__content {
+    display: flex;
+    flex-wrap: wrap;
+}

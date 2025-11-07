@@ -29,79 +29,23 @@ body {
     background-position: center;
 }
 
-main {
-    background: transparent;
-    width: 100%;
-    padding: 10px 20px;
+.container {
+    padding: 40px 0;
 }
 
-.container {
+.app {
     background-color: var(--container-color-bg);
     display: flex;
     flex-direction: column;
     gap: 10px;
 
     width: 100%;
-    max-width: 1250px;
-    padding: 15px 20px;
+    max-width: 1000px;
+    padding: 32px 48px;
 
     border: solid var(--container-color-border);
     border-width: 1px 2px;
     border-radius: 6px;
     box-shadow: var(--container-shadow);
     transition: 0.3s ease;
-}
-
-.header {
-    display: flex;
-    align-items: center;
-}
-
-.header__details {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 16px;
-    gap: 16px;
-}
-
-.header__name {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-
-    color: var(--header-color-name);
-    font-size: 24px;
-    font-weight: 600;
-}
-
-.header__tags {
-    color: var(--header-color-tags);
-}
-
-.contact {
-    display: flex;
-    flex-direction: column;
-}
-
-.contact__item {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-
-.contact__item {
-    color: var(--header-color-txt);
-    font-size: 18px;
-    text-decoration: none;
-}
-
-.contact__item i {
-    color: var(--header-color-icon);
-    font-size: 24px;
-}
-
-.skill-group {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 4px;
 }
