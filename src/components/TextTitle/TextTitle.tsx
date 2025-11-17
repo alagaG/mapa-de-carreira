@@ -1,15 +1,20 @@
 import { cva, type VariantProps } from "class-variance-authority";
 import "./TextTitle.css";
 
-const variants = cva("texttitle", {
+const variants = cva("text-title", {
     variants: {
         fontSize: {
-            lg: "texttitle--lg",
-            md: "texttitle--md",
+            lg: "text-title--text-lg",
+            md: "text-title--text-md",
+        },
+        marginBotton: {
+            md: "text-title--margin-md",
+            lg: "text-title--margin-lg",
         },
     },
     defaultVariants: {
         fontSize: "md",
+        marginBotton: "md",
     },
 });
 

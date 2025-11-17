@@ -1,0 +1,8 @@
+.resume-contact {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    color: var(--header-contact-txt);
+    text-decoration: none;
+}

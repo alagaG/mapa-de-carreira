@@ -6,9 +6,9 @@ export interface SectionHeaderProps extends React.HTMLAttributes<HTMLElement> {
 
 export default function SectionHeader({ sectionTitle }: SectionHeaderProps) {
     return (
-        <header className="sectionheader">
-            <h3 className="sectionheader__title">{sectionTitle}</h3>
-            <span className="sectionheader__line" />
+        <header className="section-header">
+            <h3 className="section-header__title">{sectionTitle}</h3>
+            <span className="section-header__line" />
         </header>
     );
 }

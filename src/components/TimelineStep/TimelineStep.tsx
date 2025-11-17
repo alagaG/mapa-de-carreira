@@ -2,6 +2,7 @@ import SkillTagGroup from "../SkillTagGroup/SkillTagGroup";
 import TextTitle from "../TextTitle/TextTitle";
 import TextWrapper from "../TextWrapper/TextWrapper";
 import TimelineDecorator from "../TimelineDecorator/TimelineDecorator";
+import "./TimeLineStep.css";
 
 export interface TimelineStepProps extends React.HTMLAttributes<HTMLElement> {
     role: string;
@@ -22,7 +23,9 @@ export default function TimelineStep({
             <TextWrapper>
                 <div>
                     <TextTitle content={role} fontSize={"lg"} />
-                    <p>{roleDescription}</p>
+                    <p className="timeline-step__description">
+                        {roleDescription}
+                    </p>
                 </div>
                 <div>
                     <TextTitle

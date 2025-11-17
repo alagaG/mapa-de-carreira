@@ -1,20 +1,31 @@
-.texttitle {
-    --texttitle--md-color: darkgray;
-    --texttitle--md-font-size: var(--font-size-md);
-    --texttitle--md-font-weight: 500;
-    --texttitle--lg-color: black;
-    --texttitle--lg-font-size: var(--font-size-lg);
-    --texttitle--lg-font-weight: 500;
+.text-title {
+    --text-title-color: white;
+    --text-title-font-size: 0px;
+    --text-title-font-weight: 0;
+    --text-title-margin-botton: 0px;
+
+    color: var(--text-title-color);
+    font-size: var(--text-title-font-size);
+    font-weight: var(--text-title-font-weight);
+    margin-bottom: var(--text-title-margin-bottom);
 }
 
-.texttitle--md {
-    color: var(--texttitle--md-color);
-    font-size: var(--font-size-md);
-    font-weight: var(--texttitle--md-font-weight);
+.text-title--text-md {
+    --text-title-color: #888;
+    --text-title-font-size: var(--font-size-md);
+    --text-title-font-weight: 500;
 }
 
-.texttitle--lg {
-    color: var(--texttitle--lg-color);
-    font-size: var(--font-size-lg);
-    font-weight: var(--texttitle--lg-font-weight);
+.text-title--text-lg {
+    --text-title-color: black;
+    --text-title-font-size: var(--font-size-lg);
+    --text-title-font-weight: 500;
+}
+
+.text-title--margin-md {
+    --text-title-margin-bottom: 8px;
+}
+
+.text-title--margin-lg {
+    --text-title-margin-bottom: 12px;
 }

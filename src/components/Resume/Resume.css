@@ -1,0 +1,35 @@
+.resume {
+    --bg-color: #ffffff20;
+
+    --header-name-color: #000;
+    --header-name-font-size: var(--font-size-xl);
+    --header-role-color: #aaa;
+    --header-role-font-size: var(--font-size-md);
+    --header-icon-color: #fff;
+    --header-txt-color: #fff;
+
+    --body-side-width-min: 100px;
+    --body-side-width-max: 200px;
+    --body-side-gap: 32px;
+    --body-skill-gap: 40px;
+    --body-gap: 20px;
+
+    --contact-txt: #000;
+
+    background: var(--bg-color);
+    backdrop-filter: blur(10px);
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    width: 100%;
+    max-width: 1000px;
+    padding: 32px 48px;
+
+    border: solid var(--container-color-border);
+    border-width: 1px 2px;
+    border-radius: 6px;
+    box-shadow: var(--container-shadow);
+    transition: 0.3s ease;
+}

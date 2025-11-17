@@ -2,15 +2,12 @@
     /* THEME VARIABLES */
     --theme-name: "light";
 
-    /* ELEMENT VARIABLES */
-    --body-background: #fff;
-
     /* COMPONENT VARIABLES */
     --container-color-bg: #fff;
     --container-color-border: transparent;
     --container-shadow: 0 5px 10px 2px #00000030;
 
-    --header-color-txt: #fff;
+    --header-color-txt: #000;
     --header-color-icon: var(--header-color-txt);
     --header-color-name: var(--header-color-txt);
     --header-color-tags: #ddd;
@@ -24,28 +21,21 @@
 }
 
 body {
-    background: no-repeat var(--body-background);
-    background-size: cover;
-    background-position: center;
+    height: fit-content;
 }
 
 .container {
     padding: 40px 0;
 }
 
-.app {
-    background-color: var(--container-color-bg);
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
 
     width: 100%;
-    max-width: 1000px;
-    padding: 32px 48px;
+    height: 100%;
 
-    border: solid var(--container-color-border);
-    border-width: 1px 2px;
-    border-radius: 6px;
-    box-shadow: var(--container-shadow);
-    transition: 0.3s ease;
+    object-fit: cover;
+    z-index: -1000;
 }

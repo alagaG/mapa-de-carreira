@@ -1,25 +1,26 @@
-.resumebody {
+.resume-body {
     display: flex;
-    gap: 0 20px;
+    gap: 0 var(--body-gap);
 }
 
-.resumebody__main {
+.resume-body__main {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
-.resumebody__side {
+.resume-body__side {
     display: flex;
     flex-direction: column;
-    gap: 64px 0;
+    gap: var(--body-skill-gap) 0;
 
     width: 100%;
-    min-width: 200px;
-    max-width: 200px;
+    min-width: var(--body-side-width-min);
+    max-width: var(--body-side-width-max);
 }
 
-.resumebody__side__content {
+.resume-body__side__content {
     display: flex;
     flex-direction: column;
-    gap: 32px 0;
+    gap: var(--body-side-gap) 0;
 }
