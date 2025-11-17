@@ -2,7 +2,7 @@ import SkillTagGroup from "../SkillTagGroup/SkillTagGroup";
 import TextTitle from "../TextTitle/TextTitle";
 import TextWrapper from "../TextWrapper/TextWrapper";
 import TimelineDecorator from "../TimelineDecorator/TimelineDecorator";
-import "./TimeLineStep.css";
+import "./TimelineStep.css";
 
 export interface TimelineStepProps extends React.HTMLAttributes<HTMLElement> {
     role: string;
