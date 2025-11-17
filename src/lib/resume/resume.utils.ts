@@ -1,7 +1,6 @@
 import type {
     CareerStep,
     ContactMediaType,
-    ContactMidia,
     ResumeProfile,
     SkillBar,
     SkillSection,
