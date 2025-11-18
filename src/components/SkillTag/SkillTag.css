@@ -21,17 +21,3 @@
     border-color: var(--skill-color-border-hover);
     border-width: 1px 2px;
 }
-
-.skilltag--light {
-    --skill-color-bg: #000;
-    --skill-color-txt: #000;
-    --skill-color-bg-hover: #000;
-    --skill-color-txt-hover: #000;
-}
-
-.skilltag--dark {
-    --skill-color-bg: #fff;
-    --skill-color-txt: #fff;
-    --skill-color-bg-hover: #fff;
-    --skill-color-txt-hover: #fff;
-}

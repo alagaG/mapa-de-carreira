@@ -1,23 +1,6 @@
 :root {
     /* THEME VARIABLES */
     --theme-name: "light";
-
-    /* COMPONENT VARIABLES */
-    --container-color-bg: #fff;
-    --container-color-border: transparent;
-    --container-shadow: 0 5px 10px 2px #00000030;
-
-    --header-color-txt: #000;
-    --header-color-icon: var(--header-color-txt);
-    --header-color-name: var(--header-color-txt);
-    --header-color-tags: #ddd;
-
-    --skill-color-bg: #888;
-    --skill-color-txt: #fff;
-    --skill-color-border: transparent;
-    --skill-color-bg-hover: #000;
-    --skill-color-txt-hover: #fff;
-    --skill-color-border-hover: transparent;
 }
 
 body {
@@ -26,16 +9,4 @@ body {
 
 .container {
     padding: 40px 0;
-}
-
-.background {
-    position: fixed;
-    top: 0;
-    left: 0;
-
-    width: 100%;
-    height: 100%;
-
-    object-fit: cover;
-    z-index: -1000;
 }

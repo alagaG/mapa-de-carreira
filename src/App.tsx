@@ -1,3 +1,4 @@
+import Background from "./components/Background/Background";
 import Resume from "./components/Resume/Resume";
 import "./css/style.css";
 import { ResumeBuilder } from "./lib/resume";
@@ -43,11 +44,7 @@ export default function App() {
     return (
         <main className="container">
             <Resume profile={profile} />
-            <img
-                src="https://plus.unsplash.com/premium_photo-1674409427334-0ae5280381ee?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGFpc2FnZW0lMjBkbyUyMGxhZ298ZW58MHx8MHx8fDA%3D"
-                alt=""
-                className="background"
-            />
+            <Background />
         </main>
     );
 }

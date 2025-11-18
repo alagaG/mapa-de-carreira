@@ -18,11 +18,13 @@
     color: var(--header-name-color);
     font-size: var(--header-name-font-size);
     font-weight: 600;
+    text-shadow: 0 2px 2px #00000030;
 }
 
 .resume-header__role {
     color: var(--header-role-color);
     font-size: var(--header-role-font-size);
+    text-shadow: 0 1px 2px #00000030;
 }
 
 .resume-header__contact {

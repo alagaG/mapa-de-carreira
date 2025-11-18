@@ -1,9 +1,11 @@
 .resume {
-    --bg-color: #ffffff20;
+    --resume-bg-color: #ffffff15;
+    --resume-border-color: #ffffff25;
+    --resume-shadow: 0 5px 10px 2px #00000030;
 
-    --header-name-color: #000;
+    --header-name-color: #fff;
     --header-name-font-size: var(--font-size-xl);
-    --header-role-color: #aaa;
+    --header-role-color: #888;
     --header-role-font-size: var(--font-size-md);
     --header-icon-color: #fff;
     --header-txt-color: #fff;
@@ -16,8 +18,23 @@
 
     --contact-txt: #000;
 
-    background: var(--bg-color);
-    backdrop-filter: blur(10px);
+    --skill-color-bg: #1598e4;
+    --skill-color-bg-hover: #1763c7;
+    --skill-color-txt: #fff;
+    --skill-color-txt-hover: #fff;
+    --skill-color-border: transparent;
+    --skill-color-border-hover: transparent;
+
+    --timeline-prop-color: rgb(255, 255, 255);
+    --timeline-prop-margin: 24px;
+    --timeline-circle-offset: 3px;
+    --timeline-circle-size: 16px;
+    --timeline-circle-width: 4px;
+    --timeline-line-width: 3px;
+    --timeline-line-opacity: 0.2;
+
+    background: var(--resume-bg-color);
+    backdrop-filter: blur(16px);
 
     display: flex;
     flex-direction: column;
@@ -27,9 +44,9 @@
     max-width: 1000px;
     padding: 32px 48px;
 
-    border: solid var(--container-color-border);
-    border-width: 1px 2px;
+    border: solid var(--resume-border-color);
+    border-width: 1px;
     border-radius: 6px;
-    box-shadow: var(--container-shadow);
+    box-shadow: var(--resume-shadow);
     transition: 0.3s ease;
 }

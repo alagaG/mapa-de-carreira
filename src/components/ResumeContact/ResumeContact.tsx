@@ -12,10 +12,12 @@ export interface ResumeContactProps {
 
 export default function ResumeContact({ contact }: ResumeContactProps) {
     return (
-        <a target="_blank" href={contact.link} className={"resume-contact"}>
-            {getIcon(contact.type)}
-            <span>{contact.type}</span>
-        </a>
+        <div className="resume-contact__wrapper">
+            <a target="_blank" href={contact.link} className="resume-contact">
+                {getIcon(contact.type)}
+                <span className="">{contact.type}</span>
+            </a>
+        </div>
     );
 }
 
