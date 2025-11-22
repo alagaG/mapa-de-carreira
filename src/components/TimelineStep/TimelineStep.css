@@ -1,3 +1,8 @@
 .timeline-step__description {
     text-align: justify;
 }
+
+.timeline-step__description,
+.timeline-step__list {
+    color: var(--timeline-step-description-color);
+}

@@ -1,0 +1,33 @@
+.progress-bar {
+    background-color: var(--progress-bar-bg-color);
+    height: var(--progress-bar-height);
+    border-radius: calc(var(--progress-bar-radius) + 1px);
+    overflow: hidden;
+    padding: var(--progress-bar-padding);
+}
+
+.progress-bar__bar {
+    position: relative;
+    height: 100%;
+    border-radius: var(--progress-bar-radius);
+}
+
+.progress-bar__bar::before {
+    position: absolute;
+    content: "";
+    background: var(--progress-bar-bar-color);
+    width: 0;
+    height: 100%;
+    border-radius: var(--progress-bar-radius);
+    animation: progress-bar-loading forwards 1s ease-out;
+}
+
+@keyframes progress-bar-loading {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}

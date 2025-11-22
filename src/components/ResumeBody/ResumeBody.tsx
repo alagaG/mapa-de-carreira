@@ -6,7 +6,7 @@ import TimelineStep from "../TimelineStep/TimelineStep";
 import { ResumeContext } from "../Resume/Resume";
 import "./ResumeBody.css";
 
-export interface ResumeBodyProps extends React.HTMLAttributes<HTMLDivElement> {}
+export type ResumeBodyProps = React.HTMLAttributes<HTMLDivElement>
 
 export default function ResumeBody({ ...props }: ResumeBodyProps) {
     const resume = useContext(ResumeContext);

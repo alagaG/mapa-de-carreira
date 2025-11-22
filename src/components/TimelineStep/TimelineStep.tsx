@@ -32,7 +32,7 @@ export default function TimelineStep({
                         content="Soft Skills exigidas para essa carreira:"
                         fontSize={"md"}
                     />
-                    <ul>
+                    <ul className="timeline-step__list">
                         {softSkills.map((ss, i) => (
                             <li key={`softskill-${i}`}>{ss}</li>
                         ))}

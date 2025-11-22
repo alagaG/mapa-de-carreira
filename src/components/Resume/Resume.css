@@ -1,11 +1,11 @@
 .resume {
-    --resume-bg-color: #ffffff15;
+    --resume-bg-color: #55555520;
     --resume-border-color: #ffffff25;
     --resume-shadow: 0 5px 10px 2px #00000030;
 
     --header-name-color: #fff;
     --header-name-font-size: var(--font-size-xl);
-    --header-role-color: #888;
+    --header-role-color: #ffffff80;
     --header-role-font-size: var(--font-size-md);
     --header-icon-color: #fff;
     --header-txt-color: #fff;
@@ -16,22 +16,43 @@
     --body-skill-gap: 40px;
     --body-gap: 20px;
 
-    --contact-txt: #000;
+    --section-header-title-fs: var(--font-size-lg);
+    --section-header-title-color: #ffffff95;
+    --section-header-line-color: #ffffff80;
+    --section-header-line-width: 1px;
+    --section-header-mb: 24px;
 
-    --skill-color-bg: #1598e4;
-    --skill-color-bg-hover: #1763c7;
-    --skill-color-txt: #fff;
-    --skill-color-txt-hover: #fff;
+    --header-contact-txt: #ffffff85;
+    --section-txt-color: #ffffff80;
+    --skillgroup-title-color: #ffffff85;
+    --skillbar-name-txt-color: #ffffff75;
+
+    --skill-color-bg: #ffffff30;
+    --skill-color-bg-hover: #ffffff75;
+    --skill-color-txt: #ffffff85;
+    --skill-color-txt-hover: #ffffff;
     --skill-color-border: transparent;
     --skill-color-border-hover: transparent;
 
-    --timeline-prop-color: rgb(255, 255, 255);
+    --timeline-prop-color: #3c87c4;
     --timeline-prop-margin: 24px;
     --timeline-circle-offset: 3px;
     --timeline-circle-size: 16px;
     --timeline-circle-width: 4px;
     --timeline-line-width: 3px;
     --timeline-line-opacity: 0.2;
+    --timeline-step-description-color: #ffffff80;
+
+    --text-title-color: white;
+    --text-title-font-size: 0px;
+    --text-title-font-weight: 0;
+    --text-title-margin-botton: 0px;
+
+    --progress-bar-bg-color: #ffffff30;
+    --progress-bar-bar-color: #ffffff75;
+    --progress-bar-height: 0.8rem;
+    --progress-bar-radius: 5px;
+    --progress-bar-padding: 2px;
 
     background: var(--resume-bg-color);
     backdrop-filter: blur(16px);

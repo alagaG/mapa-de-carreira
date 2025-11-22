@@ -6,7 +6,6 @@ export interface SectionProps extends React.HTMLAttributes<HTMLElement> {
 }
 
 export default function Section({
-    className,
     sectionTitle,
     children,
     ...props

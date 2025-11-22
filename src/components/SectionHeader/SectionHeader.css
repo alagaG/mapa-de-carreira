@@ -1,13 +1,15 @@
 .section-header {
-    margin-bottom: 24px;
+    margin-bottom: var(--section-header-mb);
 }
 
 .section-header__title {
-    font-size: var(--font-size-lg);
+    color: var(--section-header-title-color);
+    font-size: var(--section-header-title-fs);
 }
 
 .section-header__line {
     display: block;
     width: 100%;
-    border-bottom: 1px solid black;
+    border-bottom: var(--section-header-line-width) solid
+        var(--section-header-line-color);
 }

@@ -33,7 +33,7 @@ export default function App() {
         .addSidebarSection("HARD SKILLS", (builder) =>
             builder
                 .setBarsSection("Hard Skills", (builder) =>
-                    builder.add("Java", 100).add("C#", 100).add("HTML", 100)
+                    builder.add("Java", 75).add("C#", 38).add("HTML", 5)
                 )
                 .setTagsSection("Soft Skills", (builder) =>
                     builder.add("Comunicação").add("Trabalho em equipe")

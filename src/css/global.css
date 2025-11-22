@@ -13,6 +13,16 @@
     --font-size-2xl: 2.2rem;
 }
 
+@media screen and (width: 1000px) {
+    :root {
+        --font-size-sm: 0.4rem;
+        --font-size-md: 0.5rem;
+        --font-size-lg: 0.7rem;
+        --font-size-xl: 0.9rem;
+        --font-size-2xl: 1.1rem;
+    }
+}
+
 * {
     box-sizing: border-box;
 }
