@@ -1,7 +1,6 @@
 import "./TextWrapper.css";
 
-export interface TextWrapperProps
-    extends React.HTMLAttributes<HTMLDivElement> {}
+export type TextWrapperProps = React.HTMLAttributes<HTMLDivElement>;
 
 export default function TextWrapper({ children, ...props }: TextWrapperProps) {
     return (

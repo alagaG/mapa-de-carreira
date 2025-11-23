@@ -1,7 +1,6 @@
 import "./TimelineDecorator.css";
 
-export interface TimelineDecoratorProps
-    extends React.HTMLAttributes<HTMLElement> {}
+export type TimelineDecoratorProps = React.HTMLAttributes<HTMLElement>;
 
 export default function TimelineDecorator({
     children,

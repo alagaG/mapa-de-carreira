@@ -37,3 +37,7 @@
     opacity: var(--timeline-line-opacity);
     box-sizing: border-box;
 }
+
+.timelinedeco__content {
+    width: 100%;
+}

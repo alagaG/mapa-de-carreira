@@ -3,10 +3,10 @@ import SectionHeader from "../SectionHeader/SectionHeader";
 import SkillBarGroup from "../SkillBarGroup/SkillBarGroup";
 import SkillTagGroup from "../SkillTagGroup/SkillTagGroup";
 import TimelineStep from "../TimelineStep/TimelineStep";
-import { ResumeContext } from "../Resume/Resume";
 import "./ResumeBody.css";
+import { ResumeContext } from "../../lib/resume";
 
-export type ResumeBodyProps = React.HTMLAttributes<HTMLDivElement>
+export type ResumeBodyProps = React.HTMLAttributes<HTMLDivElement>;
 
 export default function ResumeBody({ ...props }: ResumeBodyProps) {
     const resume = useContext(ResumeContext);
@@ -14,6 +14,7 @@ export default function ResumeBody({ ...props }: ResumeBodyProps) {
         <div className="resume-body" {...props}>
             <section className="resume-body__main">
                 <SectionHeader sectionTitle="MAPA DE CARREIRA" />
+
                 {resume.carrerMap.map((step, index) => (
                     <TimelineStep
                         key={`careerstep-${index}`}

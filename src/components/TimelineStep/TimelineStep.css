@@ -2,6 +2,10 @@
     text-align: justify;
 }
 
+.timeline-step__list {
+    list-style-type: disc;
+    list-style-position: inside;
+}
 .timeline-step__description,
 .timeline-step__list {
     color: var(--timeline-step-description-color);

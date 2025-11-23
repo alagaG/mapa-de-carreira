@@ -1,7 +1,7 @@
 import "./ResumeHeader.css";
 import { useContext } from "react";
-import { ResumeContext } from "../Resume/Resume";
 import ResumeContact from "../ResumeContact/ResumeContact";
+import { ResumeContext } from "../../lib/resume";
 
 export default function ResumeHeader() {
     const resume = useContext(ResumeContext);
