@@ -2,17 +2,14 @@ import "./ResumeHeader.css";
 import { useContext } from "react";
 import ResumeContact from "../ResumeContact/ResumeContact";
 import { ResumeContext } from "../../lib/resume";
+import profile from "../../assets/img/profile.jpg";
 
 export default function ResumeHeader() {
     const resume = useContext(ResumeContext);
 
     return (
         <header className="resume-header">
-            <img
-                src="https://placehold.co/200x200"
-                alt=""
-                className="resume-header__image"
-            />
+            <img src={profile} className="resume-header__image" />
             <div className="resume-header__details">
                 <div>
                     <h2 className="resume-header__name">
