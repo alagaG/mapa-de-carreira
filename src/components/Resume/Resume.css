@@ -1,5 +1,5 @@
 .resume {
-    --resume-bg-color: #55555520;
+    --resume-bg-color: #55555530;
     --resume-border-color: #ffffff25;
     --resume-shadow: 0 5px 10px 2px #00000030;
 
@@ -50,12 +50,14 @@
 
     --progress-bar-bg-color: #ffffff30;
     --progress-bar-bar-color: #ffffff75;
+    --progress-bar-bg-color-hover: #ffffff55;
+    --progress-bar-bar-color-hover: #ffffff95;
     --progress-bar-height: 0.8rem;
     --progress-bar-radius: 5px;
     --progress-bar-padding: 2px;
 
     background: var(--resume-bg-color);
-    backdrop-filter: blur(16px);
+    backdrop-filter: blur(24px);
 
     display: flex;
     flex-direction: column;

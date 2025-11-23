@@ -4,6 +4,11 @@
     border-radius: calc(var(--progress-bar-radius) + 1px);
     overflow: hidden;
     padding: var(--progress-bar-padding);
+    transition: 0.3s ease;
+}
+
+.progress-bar:hover {
+    --progress-bar-bg-color: var(--progress-bar-bg-color-hover);
 }
 
 .progress-bar__bar {
@@ -20,6 +25,11 @@
     height: 100%;
     border-radius: var(--progress-bar-radius);
     animation: progress-bar-loading forwards 1s ease-out;
+    transition: 0.3s ease;
+}
+
+.progress-bar:hover .progress-bar__bar::before {
+    --progress-bar-bar-color: var(--progress-bar-bar-color-hover);
 }
 
 @keyframes progress-bar-loading {
